@@ -1,12 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anasayfa</title>
+    <title>Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://css.gg/phone.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/84e4434257.js" crossorigin="anonymous"></script>
+
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            background-color: #538cc6;
+            font-size: 20px;
+        }
+        
+        .container {
+            height: 1100px;
+            width: 80%;
+            background-color: rgb(223, 221, 221);
+            margin: 40px auto;
+            overflow: hidden;
+        }
+        
+        .col30 {
+            width: 35%;
+            height: 100%;
+            background-color: blanchedalmond;
+            padding: 1.0rem;
+            float: left;
+            font-family: 'PT Serif', serif;
+        }
+        
+        .col70 {
+            width: 65%;
+            height: 100%;
+            background-color: rgb(227, 255, 255);
+            float: left;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        span {
+            display: block;
+        }
+        
+        span img {
+            width: 100%;
+            height: 12rem;
+            border-radius: 50%;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 5px;
+        }
+        
+        #profil {
+            display: block;
+            text-align: center;
+        }
+        
+        #isim {
+            font-size: 2.5rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        
+        #meslek {
+            font-size: 0.8rem;
+            font-style: italic;
+            letter-spacing: 2px;
+            opacity: calc(0.6);
+        }
+        
+        ul li {
+            list-style-type: none;
+        }
+        
+        hr {
+            border-top: 2px solid rgb(134, 117, 117);
+            margin: 1rem auto;
+        }
+        
+        #yetenek li {
+            font-size: 1.3rem;
+            text-align: left;
+        }
+        
+        #yetenek i {
+            font-size: 1.3rem;
+            color: #484e3f;
+        }
+        
+        li i {
+            font-size: 1.3rem;
+            color: black;
+        }
+        
+        a {
+            font-size: 1.3rem;
+            text-decoration: none;
+            color: black;
+            display: inline;
+        }
+        
+        .baslik {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        
+        .fa-star {
+            float: right;
+            color: orange;
+        }
+        
+        #iletisim i {
+            float: left;
+        }
+        
+        #iletisim li {
+            margin-bottom: 10px;
+        }
+        
+        .part {
+            margin: 1rem;
+            height: 30px;
+        }
+        
+        .partbaslik {
+            font-size: 2rem;
+        }
+        
+        .part hr {
+            border-top: 2px solid blue;
+            margin: 1rem auto;
+        }
+        
+        .col60 {
+            width: 60%;
+            float: left;
+            padding: 0.5rem;
+        }
+        
+        .col40 {
+            width: 40%;
+            float: left;
+        }
+        
+        .okuladi {
+            font-size: 0.8rem;
+            letter-spacing: 2px;
+            font-weight: bold;
+            margin-bottom: 0.7rem;
+        }
+        
+        .ortalama {
+            font-size: 0.9rem;
+            opacity: calc(0.7);
+        }
+        
+        .sene {
+            font-size: 0.8rem;
+            letter-spacing: 2px;
+            font-weight: bold;
+            margin-bottom: 0.7rem;
+            text-align: right;
+            padding: 0.5rem;
+        }
+        
+        .egitim {
+            margin-bottom: 1.5rem;
+        }
+        
+        .bolum {
+            font-size: 0.9rem;
+            letter-spacing: 1.5px;
+            opacity: 0.9;
+            font-style: italic;
+        }
+        
+        .donem {
+            font-size: 0.9rem;
+            letter-spacing: 1.5px;
+        }
+        
+        .clearfix {
+            clear: both;
+        }
+    </style>
 </head>
+<div class="container">
+    <div class="col30">
+        <span><img src="profil.jpg" alt=""></span>
+        <hr>
+        <span id="profil">
+            <span id="isim">Enes Ergen</span>
+        <span id="meslek">Bilgisayar Mühendisi</span>
+        <hr>
+        <span id="yetenek">
+            <ul>
+            <span class="baslik">BECERİLER</span>
+
+        <li> <i class="devicon-android-plain"></i></i>
+            </i> Android
+            </span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
+            <li><i class="devicon-java-plain"></i><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
+                </i> Java
+                <span class="fa fa-star"></span><span class="fa fa-star checked"></span>
+            </li>
+            <li><i class="devicon-cplusplus-line"></i> C++
+                <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
+            </li>
+            <li><i class="devicon-mysql-plain"></i> MySql<span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
+
+            </li>
+            <li><i class="devicon-postgresql-plain"></i> Postgresql
+                <span class="fa fa-star checked"></span><span class="fa fa-star checked">
+            </li>
+            <li><i class="devicon-git-plain"></i> Git
+                <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
+            </li>
+
+            </ul>
+            </span>
+            <hr>
+            <span id="iletisim">
+                <span class="baslik">İLETİŞİM</span>
+            <ul>
+                <li>
+                    <i class="fa-solid fa-phone"></i><a href="tel:+905382336171" target="_blank">+90 (538) 233 61 71</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope"></i><a href="mailto:eenes44@gmail.com" target="_blank">eenes44@gmail.com</a>
+                </li>
+                <li>
+                    <i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/enesergen/" target="_blank">enesergen</a>
+                </li>
+                <li>
+                    <i class="fa-brands fa-github"></i><a href="https://github.com/enesergen" target="_blank">enesergen</a>
+                </li>
+                <li>
+                    <i class="fa-brands fa-hackerrank"></i><a href="https://www.hackerrank.com/enesergen" target="_blank">enesergen</a>
+                </li>
+                <li></li>
+            </ul>
+            </span>
+            </span>
+
+
+    </div>
+    <div class="col70">
+        <div class="part clearfix" style="margin-bottom: 2rem;">
+            <span class="partbaslik"><i class="fa-solid fa-graduation-cap"></i>Eğitim</span>
+            <hr>
+            <div class="egitim" style="background-color: rgb(229, 226, 226);height:4rem">
+                <span class="col60">
+                <span class="okuladi">Beydağı Anadolu Lisesi(Malatya)</span>
+                <span class="ortalama">Not Ortalaması:89.20</span>
+                </span>
+                <span class="col40">
+                    <span class="sene">2014 - 2018</span>
+                </span>
+            </div>
+            <div class="egitim" style="background-color: rgb(229, 226, 226);height:6rem">
+                <span class="col60">
+                <span class="okuladi">İstanbul Üniversitesi - Cerrahpaşa</span>
+                <span class="bolum">Bilgisayar Mühendisliği</span>
+                <span class="donem">Dönem:6/8</span>
+
+                <span class="ortalama">Not Ortalaması:3.0/4.0</span>
+                </span>
+                <span class="col40">
+                    <span class="sene">2018 - Devam Ediyor</span>
+                </span>
+            </div>
+
+
+        </div>
+
+        <div class="part clearfix">
+            <span class="partbaslik"><i class="fa-brands fa-uncharted"></i>Projeler</span>
+            <hr>
+
+
+
+        </div>
+
+    </div>
+</div>
+
 <body>
-    Deneme
+
+
+
 </body>
+
 </html>
